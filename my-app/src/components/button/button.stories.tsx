@@ -4,8 +4,8 @@ export default {
   title: "Buttons",
 };
 
-export const PrimaryButton = () => <Button type="primary">Primary</Button>;
-export const GhostButton = () => <Button type="ghost">Ghost</Button>;
-export const DashedButton = () => <Button type="dashed">Dashed</Button>;
-export const LinButton = () => <Button type="link">Link</Button>;
-export const TextButton = () => <Button type="text">Text</Button>;
+export const Primary = () => <Button type="primary">Primary</Button>;
+export const Ghost = () => <Button type="ghost">Ghost</Button>;
+export const Dashed = () => <Button type="dashed">Dashed</Button>;
+export const Link = () => <Button type="link">Link</Button>;
+export const Text = () => <Button type="text">Text</Button>;
