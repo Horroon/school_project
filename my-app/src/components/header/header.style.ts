@@ -4,6 +4,7 @@ export const HeaderStyled = styled.div`
   .header {
     display: flex;
     justify-content: space-between;
+    background: darkslategrey;
     .heading {
       padding: 27px;
       margin: 0px;
@@ -13,6 +14,7 @@ export const HeaderStyled = styled.div`
       list-style: none;
       display: flex;
       margin: 0px;
+      justify-content: space-around;
       li {
         padding: 27px;
       }

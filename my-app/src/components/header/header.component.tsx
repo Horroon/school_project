@@ -6,13 +6,13 @@ export const Header = () => (
       <h3 className="heading">Govt. High School Nawan</h3>
       <ul className="heading-list">
         <li>
-          <a href="">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#">Contact</a>
         </li>
         <li>
-          <a href="">profile tab</a>
+          <a href="#">profile tab</a>
         </li>
       </ul>
     </nav>

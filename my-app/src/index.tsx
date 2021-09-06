@@ -5,11 +5,14 @@ import "./index.css";
 import App from "./App";
 import "antd/dist/antd.css";
 import { store } from "./store/index";
+import ThemeProvider from "./constants/themeprovider";
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
